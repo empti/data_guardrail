@@ -1,0 +1,361 @@
+[
+    {
+        "source_format": "BQ",
+        "schema": [
+            "_uid_",
+            "timestamp",
+            "platform_id",
+            "event_id",
+            "event_at",
+            "event_type",
+            "channel_type",
+            "user_id",
+            "session_id",
+            "search_query",
+            "device",
+            "items",
+            "revenue",
+            "page_id",
+            "referrer_page_id",
+            "raw",
+            "shipping_charge",
+            "decision_track_id"
+        ],
+        "content": {
+            "0": {
+                "_uid_": "j_xmaz6sTzKVcyTNPzb4JA==",
+                "timestamp": 1697808788534,
+                "platform_id": "BALAAN",
+                "event_id": "moloco-event-item-page-view|0|8342839|1697808787728",
+                "event_at": 1697808787711,
+                "event_type": "ITEM_PAGE_VIEW",
+                "channel_type": "SITE",
+                "user_id": "",
+                "session_id": "6a1e6aabbd704a75ae2f75bd5ec5657c",
+                "search_query": null,
+                "device": {
+                    "os": "ios",
+                    "os_version": null,
+                    "advertising_id": null,
+                    "unique_device_id": "463800dfbb0debd8aa0e00028f953bb3",
+                    "model": null,
+                    "ip": "118.235.2.37",
+                    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/605.1 NAVER(inapp; search; 1010; 11.25.11; 13MINI)",
+                    "language": "ko"
+                },
+                "items": [
+                    {
+                        "id": "32297841",
+                        "price": {
+                            "currency": "KRW",
+                            "amount": 271680.0
+                        },
+                        "quantity": 1,
+                        "item_group_id": "",
+                        "seller_id": ""
+                    }
+                ],
+                "revenue": null,
+                "page_id": "/m2/goods/view.php",
+                "referrer_page_id": "/shop/goods/goods_view.php",
+                "raw": "{\"platform\":\"BALAAN\",\"event\":{\"id\":\"moloco-event-item-page-view|0|8342839|1697808787728\",\"event_type\":\"ITEM_PAGE_VIEW\",\"timestamp\":\"1697808787711\",\"channel_type\":\"SITE\",\"device\":{\"os\":\"ios\",\"unique_device_id\":\"463800dfbb0debd8aa0e00028f953bb3\",\"ua\":\"Mozilla/5.0(iPhone;CPUiPhoneOS16_6_1likeMacOSX)AppleWebKit/605.1.15(KHTML,likeGecko)Version/16.6Mobile/15E148Safari/605.1NAVER(inapp;search;1010;11.25.11;13MINI)\",\"language\":\"ko\",\"ip\":\"118.235.2.37\"},\"items\":[{\"id\":\"32297841\",\"price\":{\"currency\":\"KRW\",\"amount\":271680},\"quantity\":1}],\"session_id\":\"6a1e6aabbd704a75ae2f75bd5ec5657c\",\"page_id\":\"/m2/goods/view.php\",\"referrer_page_id\":\"/shop/goods/goods_view.php\"}}",
+                "shipping_charge": null,
+                "decision_track_id": null
+            },
+            "1": {
+                "_uid_": "683qtlmqSaa9TgxdUkupWg==",
+                "timestamp": 1697808793163,
+                "platform_id": "BALAAN",
+                "event_id": "moloco-event-page-view|8|12482362|1697808792489",
+                "event_at": 1697808792479,
+                "event_type": "PAGE_VIEW",
+                "channel_type": "APP",
+                "user_id": "40b9f3239f984c245346b9e9088f2c49",
+                "session_id": "47d831bfc66a41dc9af36bbfe4872df0",
+                "search_query": null,
+                "device": {
+                    "os": "android",
+                    "os_version": null,
+                    "advertising_id": null,
+                    "unique_device_id": "405d5954f07e0ba7a405e416abe8173b",
+                    "model": null,
+                    "ip": "112.159.98.164",
+                    "ua": "Mozilla/5.0 (Linux; Android 13; SM-S916N Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 BalaanApp_ver=1.2.995",
+                    "language": "ko"
+                },
+                "items": [],
+                "revenue": null,
+                "page_id": "/m2/goods/review_list.php",
+                "referrer_page_id": "/products/37885575",
+                "raw": "{\"platform\":\"BALAAN\",\"event\":{\"id\":\"moloco-event-page-view|8|12482362|1697808792489\",\"event_type\":\"PAGE_VIEW\",\"timestamp\":\"1697808792479\",\"channel_type\":\"APP\",\"user_id\":\"40b9f3239f984c245346b9e9088f2c49\",\"device\":{\"os\":\"android\",\"unique_device_id\":\"405d5954f07e0ba7a405e416abe8173b\",\"ua\":\"Mozilla/5.0(Linux;Android13;SM-S916NBuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/117.0.0.0MobileSafari/537.36BalaanApp_ver=1.2.995\",\"language\":\"ko\",\"ip\":\"112.159.98.164\"},\"session_id\":\"47d831bfc66a41dc9af36bbfe4872df0\",\"page_id\":\"/m2/goods/review_list.php\",\"referrer_page_id\":\"/products/37885575\"}}",
+                "shipping_charge": null,
+                "decision_track_id": null
+            },
+            "2": {
+                "_uid_": "Wf5m7K3KR0afvNKViDWN6Q==",
+                "timestamp": 1697808791993,
+                "platform_id": "BALAAN",
+                "event_id": "moloco-event-page-view|2|12752033|1697808791143-1",
+                "event_at": 1697808791130,
+                "event_type": "PAGE_VIEW",
+                "channel_type": "APP",
+                "user_id": "3b541f4a25c4cb04ee777f8227d0719a",
+                "session_id": "77b92de6935c42ecbeba6f83199cedc5",
+                "search_query": null,
+                "device": {
+                    "os": "android",
+                    "os_version": null,
+                    "advertising_id": null,
+                    "unique_device_id": "47041990e402e16ba45aa51b3d1fae19",
+                    "model": null,
+                    "ip": "106.101.194.211",
+                    "ua": "Mozilla/5.0 (Linux; Android 13; SM-F711N Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 BalaanApp_ver=1.2.995",
+                    "language": "ko"
+                },
+                "items": [],
+                "revenue": null,
+                "page_id": "010002004007",
+                "referrer_page_id": null,
+                "raw": "{\"platform\":\"BALAAN\",\"event\":{\"id\":\"moloco-event-page-view|2|12752033|1697808791143-1\",\"event_type\":\"PAGE_VIEW\",\"timestamp\":\"1697808791130\",\"channel_type\":\"APP\",\"user_id\":\"3b541f4a25c4cb04ee777f8227d0719a\",\"device\":{\"os\":\"android\",\"unique_device_id\":\"47041990e402e16ba45aa51b3d1fae19\",\"ua\":\"Mozilla/5.0(Linux;Android13;SM-F711NBuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/117.0.0.0MobileSafari/537.36BalaanApp_ver=1.2.995\",\"language\":\"ko\",\"ip\":\"106.101.194.211\"},\"session_id\":\"77b92de6935c42ecbeba6f83199cedc5\",\"page_id\":\"010002004007\"}}",
+                "shipping_charge": null,
+                "decision_track_id": null
+            },
+            "3": {
+                "_uid_": "Ih_tYkNITqSYVcMIG7ymTg==",
+                "timestamp": 1697808791994,
+                "platform_id": "BALAAN",
+                "event_id": "moloco-event-search|1|1689066|1697808791377",
+                "event_at": 1697808791366,
+                "event_type": "SEARCH",
+                "channel_type": "APP",
+                "user_id": "fc4d324f6a67a33d69f6f77819aa9214",
+                "session_id": "8ddef26656484f869b02b2594bff8813",
+                "search_query": "\ub514\uc62c\uc2a4\ub2c8\ucee4\uc988",
+                "device": {
+                    "os": "android",
+                    "os_version": null,
+                    "advertising_id": null,
+                    "unique_device_id": "460e61fb1c56953b924fb4fbea8c190b",
+                    "model": null,
+                    "ip": "223.39.212.96",
+                    "ua": "Mozilla/5.0 (Linux; Android 13; SM-F721N Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/118.0.0.0 Mobile Safari/537.36 BalaanApp_ver=1.2.995",
+                    "language": "ko"
+                },
+                "items": [],
+                "revenue": null,
+                "page_id": null,
+                "referrer_page_id": null,
+                "raw": "{\"platform\":\"BALAAN\",\"event\":{\"id\":\"moloco-event-search|1|1689066|1697808791377\",\"event_type\":\"SEARCH\",\"timestamp\":\"1697808791366\",\"channel_type\":\"APP\",\"user_id\":\"fc4d324f6a67a33d69f6f77819aa9214\",\"device\":{\"os\":\"android\",\"unique_device_id\":\"460e61fb1c56953b924fb4fbea8c190b\",\"ua\":\"Mozilla/5.0(Linux;Android13;SM-F721NBuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/118.0.0.0MobileSafari/537.36BalaanApp_ver=1.2.995\",\"language\":\"ko\",\"ip\":\"223.39.212.96\"},\"search_query\":\"\ub514\uc62c\uc2a4\ub2c8\ucee4\uc988\",\"session_id\":\"8ddef26656484f869b02b2594bff8813\"}}",
+                "shipping_charge": null,
+                "decision_track_id": null
+            },
+            "4": {
+                "_uid_": "lOz_Rb_ESLKntPkFxKgdBA==",
+                "timestamp": 1697808793358,
+                "platform_id": "BALAAN",
+                "event_id": "moloco-event-item-page-view|0|8342843|1697808792322",
+                "event_at": 1697808792309,
+                "event_type": "ITEM_PAGE_VIEW",
+                "channel_type": "APP",
+                "user_id": "cd11642cd79f34a17acb55e239890db4",
+                "session_id": "7c0e079f7a2e48c98c700ac9e44f5469",
+                "search_query": null,
+                "device": {
+                    "os": "ios",
+                    "os_version": null,
+                    "advertising_id": null,
+                    "unique_device_id": "42daab740ef0ef23ae048b9fde796d0b",
+                    "model": null,
+                    "ip": "223.38.10.88",
+                    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 BalaanApp_ver=1.3.009",
+                    "language": "ko"
+                },
+                "items": [
+                    {
+                        "id": "51741220",
+                        "price": {
+                            "currency": "KRW",
+                            "amount": 3407760.0
+                        },
+                        "quantity": 1,
+                        "item_group_id": "",
+                        "seller_id": ""
+                    }
+                ],
+                "revenue": null,
+                "page_id": "/m2/goods/view.php",
+                "referrer_page_id": "009004002",
+                "raw": "{\"platform\":\"BALAAN\",\"event\":{\"id\":\"moloco-event-item-page-view|0|8342843|1697808792322\",\"event_type\":\"ITEM_PAGE_VIEW\",\"timestamp\":\"1697808792309\",\"channel_type\":\"APP\",\"user_id\":\"cd11642cd79f34a17acb55e239890db4\",\"device\":{\"os\":\"ios\",\"unique_device_id\":\"42daab740ef0ef23ae048b9fde796d0b\",\"ua\":\"Mozilla/5.0(iPhone;CPUiPhoneOS16_6_1likeMacOSX)AppleWebKit/605.1.15(KHTML,likeGecko)Mobile/15E148BalaanApp_ver=1.3.009\",\"language\":\"ko\",\"ip\":\"223.38.10.88\"},\"items\":[{\"id\":\"51741220\",\"price\":{\"currency\":\"KRW\",\"amount\":3407760},\"quantity\":1}],\"session_id\":\"7c0e079f7a2e48c98c700ac9e44f5469\",\"page_id\":\"/m2/goods/view.php\",\"referrer_page_id\":\"009004002\"}}",
+                "shipping_charge": null,
+                "decision_track_id": null
+            },
+            "5": {
+                "_uid_": "sSjFHzL1TyWO17Dfzut81A==",
+                "timestamp": 1697808794861,
+                "platform_id": "BALAAN",
+                "event_id": "moloco-event-item-page-view|9|8394013|1697808793921",
+                "event_at": 1697808793909,
+                "event_type": "ITEM_PAGE_VIEW",
+                "channel_type": "SITE",
+                "user_id": "",
+                "session_id": "775a8a3f7177410c8f9b08578decc8b1",
+                "search_query": null,
+                "device": {
+                    "os": "android",
+                    "os_version": null,
+                    "advertising_id": null,
+                    "unique_device_id": "49d51ef44bd7563c8867ec5240328858",
+                    "model": null,
+                    "ip": "115.138.84.199",
+                    "ua": "Mozilla/5.0 (Linux; Android 13; SM-F731N Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/102.0.5005.189 Whale/1.0.0.0 Crosswalk/27.102.0.22 Mobile Safari/537.36 NAVER(inapp; search; 1010; 11.25.12)",
+                    "language": "ko"
+                },
+                "items": [
+                    {
+                        "id": "51959572",
+                        "price": {
+                            "currency": "KRW",
+                            "amount": 958930.0
+                        },
+                        "quantity": 1,
+                        "item_group_id": "",
+                        "seller_id": ""
+                    }
+                ],
+                "revenue": null,
+                "page_id": "/m2/goods/view.php",
+                "referrer_page_id": "/shop/goods/goods_view.php",
+                "raw": "{\"platform\":\"BALAAN\",\"event\":{\"id\":\"moloco-event-item-page-view|9|8394013|1697808793921\",\"event_type\":\"ITEM_PAGE_VIEW\",\"timestamp\":\"1697808793909\",\"channel_type\":\"SITE\",\"device\":{\"os\":\"android\",\"unique_device_id\":\"49d51ef44bd7563c8867ec5240328858\",\"ua\":\"Mozilla/5.0(Linux;Android13;SM-F731NBuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/102.0.5005.189Whale/1.0.0.0Crosswalk/27.102.0.22MobileSafari/537.36NAVER(inapp;search;1010;11.25.12)\",\"language\":\"ko\",\"ip\":\"115.138.84.199\"},\"items\":[{\"id\":\"51959572\",\"price\":{\"currency\":\"KRW\",\"amount\":958930},\"quantity\":1}],\"session_id\":\"775a8a3f7177410c8f9b08578decc8b1\",\"page_id\":\"/m2/goods/view.php\",\"referrer_page_id\":\"/shop/goods/goods_view.php\"}}",
+                "shipping_charge": null,
+                "decision_track_id": null
+            },
+            "6": {
+                "_uid_": "A2hYLaMzStSO1daLuioySQ==",
+                "timestamp": 1697808881846,
+                "platform_id": "BALAAN",
+                "event_id": "moloco-event-item-page-view|5|8294530|1697808881057",
+                "event_at": 1697808881044,
+                "event_type": "ITEM_PAGE_VIEW",
+                "channel_type": "APP",
+                "user_id": "75f4526e66a9f5efb1f0c045c678fe99",
+                "session_id": "438d670e86cc404783e03b05d14ce86f",
+                "search_query": null,
+                "device": {
+                    "os": "ios",
+                    "os_version": null,
+                    "advertising_id": null,
+                    "unique_device_id": "44fdc56c89df98dbadfb6e5df8c87a04",
+                    "model": null,
+                    "ip": "175.223.32.131",
+                    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 BalaanApp_ver=1.3.009",
+                    "language": "ko"
+                },
+                "items": [
+                    {
+                        "id": "43147341",
+                        "price": {
+                            "currency": "KRW",
+                            "amount": 133020.0
+                        },
+                        "quantity": 1,
+                        "item_group_id": "",
+                        "seller_id": ""
+                    }
+                ],
+                "revenue": null,
+                "page_id": "/m2/goods/view.php",
+                "referrer_page_id": "/products",
+                "raw": "{\"platform\":\"BALAAN\",\"event\":{\"id\":\"moloco-event-item-page-view|5|8294530|1697808881057\",\"event_type\":\"ITEM_PAGE_VIEW\",\"timestamp\":\"1697808881044\",\"channel_type\":\"APP\",\"user_id\":\"75f4526e66a9f5efb1f0c045c678fe99\",\"device\":{\"os\":\"ios\",\"unique_device_id\":\"44fdc56c89df98dbadfb6e5df8c87a04\",\"ua\":\"Mozilla/5.0(iPhone;CPUiPhoneOS16_6_1likeMacOSX)AppleWebKit/605.1.15(KHTML,likeGecko)Mobile/15E148BalaanApp_ver=1.3.009\",\"language\":\"ko\",\"ip\":\"175.223.32.131\"},\"items\":[{\"id\":\"43147341\",\"price\":{\"currency\":\"KRW\",\"amount\":133020},\"quantity\":1}],\"session_id\":\"438d670e86cc404783e03b05d14ce86f\",\"page_id\":\"/m2/goods/view.php\",\"referrer_page_id\":\"/products\"}}",
+                "shipping_charge": null,
+                "decision_track_id": null
+            },
+            "7": {
+                "_uid_": "Cz2CL2lUS9WblOHC3-upuQ==",
+                "timestamp": 1697808881847,
+                "platform_id": "BALAAN",
+                "event_id": "moloco-event-search|6|1740338|1697808880772",
+                "event_at": 1697808880760,
+                "event_type": "SEARCH",
+                "channel_type": "SITE",
+                "user_id": "34b970018d1ec830b78d22aa8ada29e0",
+                "session_id": "4a1f31ec224940b7bb1c94a30c3371fd",
+                "search_query": "\uba54\uc885\ud0a4\uce20\ub124 \ubaa9\ub3c4\ub9ac",
+                "device": {
+                    "os": "ios",
+                    "os_version": null,
+                    "advertising_id": null,
+                    "unique_device_id": "4b555f44fe3077b38a148fd5bd915edc",
+                    "model": null,
+                    "ip": "49.143.191.122",
+                    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/605.1 NAVER(inapp; search; 1010; 11.25.11; 13)",
+                    "language": "ko"
+                },
+                "items": [],
+                "revenue": null,
+                "page_id": null,
+                "referrer_page_id": null,
+                "raw": "{\"platform\":\"BALAAN\",\"event\":{\"id\":\"moloco-event-search|6|1740338|1697808880772\",\"event_type\":\"SEARCH\",\"timestamp\":\"1697808880760\",\"channel_type\":\"SITE\",\"user_id\":\"34b970018d1ec830b78d22aa8ada29e0\",\"device\":{\"os\":\"ios\",\"unique_device_id\":\"4b555f44fe3077b38a148fd5bd915edc\",\"ua\":\"Mozilla/5.0(iPhone;CPUiPhoneOS16_6_1likeMacOSX)AppleWebKit/605.1.15(KHTML,likeGecko)Version/16.6Mobile/15E148Safari/605.1NAVER(inapp;search;1010;11.25.11;13)\",\"language\":\"ko\",\"ip\":\"49.143.191.122\"},\"search_query\":\"\uba54\uc885\ud0a4\uce20\ub124\ubaa9\ub3c4\ub9ac\",\"session_id\":\"4a1f31ec224940b7bb1c94a30c3371fd\"}}",
+                "shipping_charge": null,
+                "decision_track_id": null
+            },
+            "8": {
+                "_uid_": "JZACamA7Qcivp03qGIQzEQ==",
+                "timestamp": 1697808885300,
+                "platform_id": "BALAAN",
+                "event_id": "moloco-event-page-view|8|12482448|1697808884232",
+                "event_at": 1697808884219,
+                "event_type": "PAGE_VIEW",
+                "channel_type": "APP",
+                "user_id": "34d27a4bc73f79b2f92289d76b3e407b",
+                "session_id": "c2b7a46a792a49c29f65cadec506899c",
+                "search_query": null,
+                "device": {
+                    "os": "android",
+                    "os_version": null,
+                    "advertising_id": null,
+                    "unique_device_id": "40a42f0c73988909b7eb3f7133ba21fe",
+                    "model": null,
+                    "ip": "218.147.159.155",
+                    "ua": "Mozilla/5.0 (Linux; Android 13; SM-F711N Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 BalaanApp_ver=1.2.995",
+                    "language": "ko"
+                },
+                "items": [],
+                "revenue": null,
+                "page_id": "/products/cart",
+                "referrer_page_id": null,
+                "raw": "{\"platform\":\"BALAAN\",\"event\":{\"id\":\"moloco-event-page-view|8|12482448|1697808884232\",\"event_type\":\"PAGE_VIEW\",\"timestamp\":\"1697808884219\",\"channel_type\":\"APP\",\"user_id\":\"34d27a4bc73f79b2f92289d76b3e407b\",\"device\":{\"os\":\"android\",\"unique_device_id\":\"40a42f0c73988909b7eb3f7133ba21fe\",\"ua\":\"Mozilla/5.0(Linux;Android13;SM-F711NBuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/117.0.0.0MobileSafari/537.36BalaanApp_ver=1.2.995\",\"language\":\"ko\",\"ip\":\"218.147.159.155\"},\"session_id\":\"c2b7a46a792a49c29f65cadec506899c\",\"page_id\":\"/products/cart\"}}",
+                "shipping_charge": null,
+                "decision_track_id": null
+            },
+            "9": {
+                "_uid_": "egAmeBSkTBKMKlVIKa_Hbg==",
+                "timestamp": 1697808931502,
+                "platform_id": "BALAAN",
+                "event_id": "moloco-event-page-view|1|12489731|1697808931086",
+                "event_at": 1697808931079,
+                "event_type": "PAGE_VIEW",
+                "channel_type": "APP",
+                "user_id": "9d291322d6361338da484960221e681d",
+                "session_id": "6e8dab0211b647bc88eae20217b8b79e",
+                "search_query": null,
+                "device": {
+                    "os": "android",
+                    "os_version": null,
+                    "advertising_id": null,
+                    "unique_device_id": "4b8eb9785555040ab86f5bffb62e5f35",
+                    "model": null,
+                    "ip": "106.101.3.2",
+                    "ua": "Mozilla/5.0 (Linux; Android 10; SM-G965N Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/117.0.0.0 Mobile Safari/537.36 BalaanApp_ver=1.2.995",
+                    "language": "ko"
+                },
+                "items": [],
+                "revenue": null,
+                "page_id": "/m2/myp/couponlist",
+                "referrer_page_id": "/home",
+                "raw": "{\"platform\":\"BALAAN\",\"event\":{\"id\":\"moloco-event-page-view|1|12489731|1697808931086\",\"event_type\":\"PAGE_VIEW\",\"timestamp\":\"1697808931079\",\"channel_type\":\"APP\",\"user_id\":\"9d291322d6361338da484960221e681d\",\"device\":{\"os\":\"android\",\"unique_device_id\":\"4b8eb9785555040ab86f5bffb62e5f35\",\"ua\":\"Mozilla/5.0(Linux;Android10;SM-G965NBuild/QP1A.190711.020;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/117.0.0.0MobileSafari/537.36BalaanApp_ver=1.2.995\",\"language\":\"ko\",\"ip\":\"106.101.3.2\"},\"session_id\":\"6e8dab0211b647bc88eae20217b8b79e\",\"page_id\":\"/m2/myp/couponlist\",\"referrer_page_id\":\"/home\"}}",
+                "shipping_charge": null,
+                "decision_track_id": null
+            }
+        }
+    }
+]
