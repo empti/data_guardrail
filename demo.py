@@ -93,7 +93,7 @@ height, width = image.size
 new_height = 600
 new_width = new_height * width / height
 
-image.thumbnail((new_width, new_height), Image.ANTIALIAS)
+image.thumbnail((new_width, new_height), Image.Resampling.LANCZOS)
 st.title('Data Guardrail Web Demo')
 st.sidebar.image(image)
 
