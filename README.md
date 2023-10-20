@@ -8,7 +8,7 @@ Detect and Classify Sensitive Data from Cloud Storage
 ## (Recommended) Run the application in a Docker container:
 ```sh
 docker build -t data_guardrail_api:v0.10 .
-docker container run -d -p 6155:6155 data_guardrail_api:v0.10
+docker container run -d -p 6155:6155 -p 8501:8501 data_guardrail_api:v0.10
 ```
 
 ## (Dev only) Run the application in a virtual environment 
@@ -18,7 +18,8 @@ virtualenv .env
 source .env/bin/activate
 chmod u+x setup.sh
 ./setup.sh
-python3 privacy_api.py
+chmod u+x runner.sh
+./runner.sh
 ```
 
 
