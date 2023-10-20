@@ -94,10 +94,10 @@ new_height = 600
 new_width = new_height * width / height
 
 image.thumbnail((new_width, new_height), Image.ANTIALIAS)
-st.title('Data Privacy API')
+st.title('Data Guardrail Web Demo')
 st.sidebar.image(image)
 
-st.sidebar.info('"Data Privacy API" takes the text (and label, as optional item) as input, and returns matching value, data type, and corresponding regulation/compliance indications. With an “Data Privacy API”, we can feed it with any data we have, evaluate the risk and get consistent results quickly. ')
+st.sidebar.info('"Data Guardrail Web Demo" takes the text input, and returns matching value, data type, and corresponding regulation/compliance indications. Using the demo web portal, we can analyze any data sample quickly. ')
 
 
 t = st.text_area('Enter message')
